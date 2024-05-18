@@ -1,0 +1,34 @@
+Test Case 1 - Invalid Login
+Objective: Verify the system’s response to incorrect login credentials.
+Steps:
+Enter an invalid operation job number or password.
+Expected Result: Login fails, and an error message is displayed.
+Test Case 2 - Register New Employee
+Objective: Ensure the registration process works for new employees.
+Steps:
+Fill in the account (first four digits represent the department abbreviation, followed by a three-digit employee number, e.g., oper-001).
+Provide a valid work email, first name, last name, and set a password.
+Expected Result: Successful registration for the new employee, followed by redirection to the login page.
+For Operations Department Page:
+Test Case 4 - Access Sales Data Analysis
+Objective: Confirm that the sales data analysis is accessible after logging in with an operations department account.
+Steps:
+Enter a valid item number and select “Customer Analysis.”
+Expected Result: Display the sales data report.
+For Transportation Department Page:
+Test Case 5 - Print Basic Shipment Information
+Objective: Print basic information for a shipment.
+Steps:
+Enter the product type, courier company, order time, and click “Print.”
+Expected Result: Successful printing of the shipment details.
+Test Case 6 - Product Analysis Keyword Search
+Objective: Verify the functionality of using product inventory search.
+Steps:
+Enter the product name and warehouse number.
+Expected Result: Display the current stock and order quantity for the product.
+For Finance Department Page:
+Test Case 7 - Reconcile Product Costs
+Objective: Ensure the download function works with correct inputs.
+Steps:
+Enter valid product keywords, supplier name, and transaction date, then click “Download.”
+Expected Result: Download the correct transaction data file. 
